@@ -10,7 +10,7 @@ export default {
       url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
       timeStart: '09:30',
       timeEnd: '10:20',
-      duration: 'Depends on starting location',
+      duration: 'Dunno',
     },
     {
       from: 'English 131',
@@ -28,7 +28,7 @@ export default {
         url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
         timeStart: '09:30',
         timeEnd: '10:20',
-        duration: 'Depends on starting location',
+        duration: 'Dunno',
     },
     {
         from: 'English 131',
@@ -52,7 +52,7 @@ export default {
         url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
         timeStart: '01:30',
         timeEnd: '2:20',
-        duration: 'Depends on starting location',
+        duration: 'Dunno',
     },
   ],
   wednesday: [
@@ -62,7 +62,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
           timeStart: '09:30',
           timeEnd: '10:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
       {
           from: 'English 131',
@@ -78,7 +78,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+12.4"N 122°18+31.8"W',
           timeStart: '2:30',
           timeEnd: '3:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
       {
           from: 'Current Location',
@@ -86,7 +86,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+13.6"N 122°18+36.1"W',
           timeStart: '4:30',
           timeEnd: '5:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
   ],
   thursday: [
@@ -96,7 +96,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
           timeStart: '09:30',
           timeEnd: '10:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
       {
           from: 'English 131',
@@ -112,7 +112,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+23.8"N 122°18+57.9"W',
           timeStart: '04:00',
           timeEnd: '5:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
   ],
   friday: [
@@ -122,7 +122,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+32.8"N 122°18+31.1"W',
           timeStart: '10:30',
           timeEnd: '11:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
       {
           from: 'Current Location',
@@ -130,7 +130,7 @@ export default {
           url: 'https://www.google.com/maps/dir//47°39+12.4"N 122°18+31.8"W',
           timeStart: '2:30',
           timeEnd: '3:20',
-          duration: 'Depends on starting location',
+          duration: 'Dunno',
       },
   ],
 };
