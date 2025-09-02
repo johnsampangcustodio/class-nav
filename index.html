@@ -3,12 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>ScheduleNav</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- PWA: Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest">
+
+    <!-- iOS PWA meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="ScheduleNav">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#6200EE">
+    <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAABq7bVFAAAABmJLR0QA/wD/AP+gvaeTAAABGklEQVR4nO3RAQ0CMRRE0f//p+YQy0m0l2kV7dQq3gF2n3QGqvY3hU9y9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCk/3n9Hc+0f3s3m3sY2QwY2b3k5z9m2gH7bLwO9z3YJ2k3m7b2xk8f0H1w2y7cPp+O3f3gL2m9bZ2g7YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4A4rEJr9qY8KkAAAAASUVORK5CYII=" >
+
+    <!-- Optional: register service worker without affecting app functionality -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function(){});
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
