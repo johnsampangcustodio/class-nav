@@ -1,0 +1,136 @@
+// Static schedule data for the Class Schedule Navigator
+// Edit this object to change your schedule and links.
+
+// Days should be lowercase keys that match URL paths like /day/monday
+export default {
+  monday: [
+    {
+      from: 'Current Location',
+      to: 'English 131',
+      url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
+      timeStart: '09:30',
+      timeEnd: '10:20',
+      duration: 'Depends on starting location',
+    },
+    {
+      from: 'English 131',
+      to: 'Math 125',
+      url: 'https://maps.app.goo.gl/pX9s3Ezyesbwy9ze8',
+      timeStart: '10:30',
+      timeEnd: '11:20',
+      duration: '11 min',
+    },
+  ],
+  tuesday: [
+    {
+        from: 'Current Location',
+        to: 'English 131',
+        url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
+        timeStart: '09:30',
+        timeEnd: '10:20',
+        duration: 'Depends on starting location',
+    },
+    {
+        from: 'English 131',
+        to: 'CSE 122 Quiz',
+        url: 'https://maps.app.goo.gl/xBro8TBtQ9b4qLRUA',
+        timeStart: '10:30',
+        timeEnd: '11:20',
+        duration: '8 minutes',
+    },
+    {
+        from: 'CSE 122 Quiz',
+        to: 'Engineering 101',
+        url: 'https://maps.app.goo.gl/J8f6Ho21BMegjaFK6',
+        timeStart: '11:30',
+        timeEnd: '12:20',
+        duration: '6 minutes',
+    },
+    {
+        from: 'Current Location',
+        to: 'Math 125 Quiz',
+        url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
+        timeStart: '01:30',
+        timeEnd: '2:20',
+        duration: 'Depends on starting location',
+    },
+  ],
+  wednesday: [
+      {
+          from: 'Current Location',
+          to: 'English 131',
+          url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
+          timeStart: '09:30',
+          timeEnd: '10:20',
+          duration: 'Depends on starting location',
+      },
+      {
+          from: 'English 131',
+          to: 'Math 125',
+          url: 'https://maps.app.goo.gl/pX9s3Ezyesbwy9ze8',
+          timeStart: '10:30',
+          timeEnd: '11:20',
+          duration: '11 min',
+      },
+      {
+          from: 'Current Location',
+          to: 'CSE 122',
+          url: 'https://www.google.com/maps/dir//47°39+12.4"N 122°18+31.8"W',
+          timeStart: '2:30',
+          timeEnd: '3:20',
+          duration: 'Depends on starting location',
+      },
+      {
+          from: 'Current Location',
+          to: 'General Studies 199',
+          url: 'https://www.google.com/maps/dir//47°39+13.6"N 122°18+36.1"W',
+          timeStart: '4:30',
+          timeEnd: '5:20',
+          duration: 'Depends on starting location',
+      },
+  ],
+  thursday: [
+      {
+          from: 'Current Location',
+          to: 'English 131',
+          url: 'https://www.google.com/maps/dir//47°39+15.4"N 122°18+16.2"W',
+          timeStart: '09:30',
+          timeEnd: '10:20',
+          duration: 'Depends on starting location',
+      },
+      {
+          from: 'English 131',
+          to: 'CSE 122 Quiz',
+          url: 'https://maps.app.goo.gl/xBro8TBtQ9b4qLRUA',
+          timeStart: '10:30',
+          timeEnd: '11:20',
+          duration: '8 minutes',
+      },
+      {
+          from: 'Current Location',
+          to: 'Math 125 Quiz',
+          url: 'https://www.google.com/maps/dir//47°39+23.8"N 122°18+57.9"W',
+          timeStart: '04:00',
+          timeEnd: '5:20',
+          duration: 'Depends on starting location',
+      },
+  ],
+  friday: [
+      {
+          from: 'Current Location',
+          to: 'Math 125',
+          url: 'https://www.google.com/maps/dir//47°39+32.8"N 122°18+31.1"W',
+          timeStart: '10:30',
+          timeEnd: '11:20',
+          duration: 'Depends on starting location',
+      },
+      {
+          from: 'Current Location',
+          to: 'CSE 122',
+          url: 'https://www.google.com/maps/dir//47°39+12.4"N 122°18+31.8"W',
+          timeStart: '2:30',
+          timeEnd: '3:20',
+          duration: 'Depends on starting location',
+      },
+  ],
+};
